@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/nksinghfirst/unit-testing.git'
+                git branch: 'main', url: 'https://github.com/nksinghfirst/task2-unittesting.git'
             }
         }
         stage('Run Unit Tests') {
