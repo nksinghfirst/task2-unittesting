@@ -3,7 +3,7 @@ import requests
 
 class TestWebsiteConnection(unittest.TestCase):
     def test_website_connection(self):
-        url = "https://atg.world"
+        url = "https://atg.worldsfsf"
         print("Attempting to connect to:", url)
         try:
             response = requests.get(url)
