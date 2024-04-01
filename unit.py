@@ -14,5 +14,5 @@ class TestWebsiteConnection(unittest.TestCase):
             print("Error connecting to the website:", e)
             self.fail("Website failed to load")
 
-if _name_ == "_main_":
+if __name__ == '__main__':
     unittest.main()
