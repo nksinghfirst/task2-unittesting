@@ -9,7 +9,7 @@ class TestWebsiteLoading(unittest.TestCase):
         
         print("Testing if atg.world website loads...")
 
-        website_url = "https://atg.world"
+        website_url = "https://atgm.worldm"
         response = requests.get(website_url)
         
         self.assertEqual(response.status_code, 200, f"Failed to load website: {website_url}")
