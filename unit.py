@@ -5,7 +5,7 @@ class TestWebsiteLoading(unittest.TestCase):
     "Class to unit check the loading of atg.world website"
 
     def test_website_loading(self):
-        "Unit test to check if the atg.world website loads properly"
+        "Unit test to check if the atgw.wworld website loads properly"
         
         print("Testing if atg.world website loads...")
 
